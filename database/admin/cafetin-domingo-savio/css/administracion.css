@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  justify-items: center;
+}
+.header-box{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #f2f2f2;
+}
+.header-box h1{
+  text-align: center;
+  margin-top: 3.5vh;
+  font-size: 22px;
+}
+#regresar{
+  background-color: rgb(65,105,225);
+  border: 1px solid rgb(65,105,225);
+  color: #fff;
+  height: 5vh;
+}
+.box{
+  height: 28.3vh;
+}
+.admin{
+  width: 100%;
+  background-color: rgb(70, 130, 180);
+}
+.cliente{
+  width: 100%;
+  background-color: rgb(218, 165, 32);
+}
+.reservacion{
+  width: 100%;
+  background-color: rgb(70, 130, 180);
+}
+.admin-crear{
+  background-color: rgb(218, 165, 32);
+}
+.cliente-crear{
+  background-color: rgb(70, 130, 180);
+}
+.box div{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.box div img{
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
